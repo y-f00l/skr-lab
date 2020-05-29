@@ -60,3 +60,4 @@ Record my study progress
 
   ### to do list
     - 考试周复习(忙完考试周变日更
+    - 考完试写编译器
