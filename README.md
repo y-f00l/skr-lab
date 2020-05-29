@@ -1,5 +1,7 @@
 # skr-lab
 Record my study progress
+<details>
+  <summary>**1-2weeks**</summary>
 ## 1-2 weeks 5.14-5.28
 1-2周主要学习了c++，由于我没有c++基础，就从c++ primer看起了，但是由于primer里细碎的知识点过多，所以c++的很多特性还不熟，有以下收获
 - 模版和泛型编程初步掌握
@@ -61,3 +63,4 @@ Record my study progress
   ### to do list
     - 考试周复习(忙完考试周变日更
     - 考完试写编译器
+</details>
