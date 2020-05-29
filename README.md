@@ -49,7 +49,14 @@ Record my study progress
         只要自己定义好拷贝构造函数就可以了，在里面完成分配内存并初始化的操作。
 - 写了一部分stl的源码，但是并没有用c++11等的新特性,只写完了hash table
   - github链接:https://github.com/y-f00l/f00l_tiny_stl
+  ### some bugs in my syl
+  - vector 
+  	pop_back后end迭代器会前向移动一个单位，但是这里它并没有检查移动后的end是否超前于begin，这样如果多次对vector pop，那么end就会超出本vector的范围，那么就会发生越界读写。asan编译后抛出 heap overflow的警告
+
+  - list
+    是erase的锅，如果在你疯狂对list进行erase，在它为空的时候，里面会有一个head node，由于list是双向循环链表，这时head node就会指向它自己，此刻在进行erase，就会对head node进行析构，然后释放对应内存，但是list里的erase函数会返回一个指向erase的结点的后继结点的迭代器，这样我们会拿到一个指向已释放内存的指针，会造成uaf。asan编译后会抛use after free的警告。
+    
+    总结一下，这些漏洞的成因是都是bound check的遗漏，看了一下别的师傅找到的发现有迭代器的位置不正确，导致析构出现uaf。
+
   ### to do list
-    - 发现自己写的代码里的漏洞
-    - 考试周复习(2333)
-    - 考试周之后会变成日记
+    - 考试周复习(忙完考试周变日更
