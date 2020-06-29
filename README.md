@@ -69,4 +69,17 @@ Record my study progress
   - 听完了cs143的2weeks的课，完成PA2的词法分析(63/63);
 - 6.3
   - 开始听parser部分。
+## 4-6 week
+- 这个月学习了stanford的cs143，
+  - 从词法分析到代码生成
+  - 了解了自动机理论
+  - 学到了一点flex和bison的基本写法
+  - 了解了语法分析该怎么写文法
+  - 语义分析和代码生成基本是借鉴了高人写的代码，设计的真的很棒
+  - 这个月生活中也是一团糟，不过还好，目前心态整理的差不多了。
+## 7 week
+### 6.29
+   - 开始看llvm的tutorial，目前写完了kaledoscope的lexer和parser(有股熟悉的味道)
+   - 看了一点垃圾回收的算法，刚看完标记-清除算法，嗅到了ptmalloc的味道
 </details>
+
