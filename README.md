@@ -3,6 +3,9 @@ Record my study progress
 <details>
   <summary>第一阶段: Computer basic</summary>
   
+<details>
+<summary>1-3weeks: mystl</summary>
+
 ## 1-2 weeks 5.14-5.28
 1-2周主要学习了c++，由于我没有c++基础，就从c++ primer看起了，但是由于primer里细碎的知识点过多，所以c++的很多特性还不熟，有以下收获
 - 模版和泛型编程初步掌握
@@ -64,6 +67,11 @@ Record my study progress
   ### 下一阶段目标
     - 考试周复习(忙完考试周变日更 苟过考试周先
     - 考完试写编译器
+</details>
+
+<details>
+  <summary>3-6 weeks: my compiler learn</summary>
+  
 ## 3rd week
 - 6.1-6.2
   - 听完了cs143的2weeks的课，完成PA2的词法分析(63/63);
@@ -77,9 +85,11 @@ Record my study progress
   - 了解了语法分析该怎么写文法
   - 语义分析和代码生成基本是借鉴了高人写的代码，设计的真的很棒
   - 这个月生活中也是一团糟，不过还好，目前心态整理的差不多了。
+
 ## 7 week
 ### 6.29
    - 开始看llvm的tutorial，目前写完了kaledoscope的lexer和parser(有股熟悉的味道)
    - 看了一点垃圾回收的算法，刚看完标记-清除算法，嗅到了ptmalloc的味道
+</details>
 </details>
 
