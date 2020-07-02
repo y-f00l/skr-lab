@@ -90,6 +90,13 @@ Record my study progress
 ### 6.29
    - 开始看llvm的tutorial，目前写完了kaledoscope的lexer和parser(有股熟悉的味道)
    - 看了一点垃圾回收的算法，刚看完标记-清除算法，嗅到了ptmalloc的味道
+### 6.30
+   - 看房子
+### 7.1
+   - 看房子
+### 7.3
+   - 跟家里人商量假期的事
+   - 看了cscd70的lec1
 </details>
 </details>
 
