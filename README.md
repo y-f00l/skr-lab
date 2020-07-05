@@ -98,6 +98,7 @@ Record my study progress
 ### 7.3
    - 跟家里人商量假期的事
    - 看了cscd70的lec1
+   - 补一下cscd70的笔记：https://github.com/y-f00l/f00l_llvm_learn
 ### 7，4
    - 写了llvm tutorial的parser
    - 帮室友搬宿舍
