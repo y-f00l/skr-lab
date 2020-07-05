@@ -102,7 +102,7 @@ Record my study progress
    - 写了llvm tutorial的parser
    - 帮室友搬宿舍
 ### 7.5
-   - 整理了cool的笔记
+   - 整理了cool的笔记https://github.com/y-f00l/f00l_cool_compiler
    - 在看编译器的漏洞
 </details>
 </details>
