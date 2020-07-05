@@ -88,7 +88,7 @@ Record my study progress
 
 ## 7 week
 ### 6.29
-   - 开始看llvm的tutorial，目前写完了kaledoscope的lexer和parser(有股熟悉的味道)
+   - 开始看llvm的tutorial，目前看完了kaledoscope的lexer和parser(有股熟悉的味道)
    - 看了一点垃圾回收的算法，刚看完标记-清除算法，嗅到了ptmalloc的味道
 ### 6.30
    - 搬宿舍
@@ -97,6 +97,7 @@ Record my study progress
    - 写完了llvm tutorial的lexer
 ### 7.3
    - 跟家里人商量假期的事
+   - 找兼职
    - 看了cscd70的lec1
    - 补一下cscd70的笔记：https://github.com/y-f00l/f00l_llvm_learn
 ### 7，4
