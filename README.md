@@ -89,7 +89,7 @@ Record my study progress
 ## 7 week
 ### 6.29
    - 开始看llvm的tutorial，目前看完了kaledoscope的lexer和parser(有股熟悉的味道)
-   - 看了一点垃圾回收的算法，刚看完标记-清除算法，嗅到了ptmalloc的味道
+   - 看了一点垃圾回收的算法，刚看到标记-清除算法，嗅到了ptmalloc的味道
 ### 6.30
    - 搬宿舍
 ### 7.1
@@ -125,6 +125,10 @@ d = a - d
   - 为a构建DAG结点的时候，因为b和c没定值，所以这个有了两个子结点b0 c0来当作b和c的初始值
   - 在给b构建结点的时候，因为构建了b，所以从子结点里删除了b0，为什么在构建c的时候没有删除c0
   - 已解决：课件里没画出来（摔）
+  - 看完了标记-清除算法：
+<details>
+  <summary>标记-清除算法</summary>
+</details>
 </details>
 </details>
 
