@@ -113,7 +113,6 @@ Record my study progress
    - 有一个问题:
       - 为什么在进行DAG图构建的时候，为x = y + z构建DAG结点N的时候，M结点的定值变量表里出现了x，要将x删去
       - 我看的ppt上有的时候是不删除的，例子:
-      
 ```c
 
 a = b + c
@@ -128,7 +127,14 @@ d = a - d
   - 看完了标记-清除算法
   - 笔记可以在这里看:
   
-
+ ### 7.9
+  - 配好了在真机上开发llvm的环境，可以继续写llvm的tutorial了
+  - 做好了assignment1的function info
+  - 对llvm的pass有了初步认识
+ ### 7.10
+  - 上午去办了身份证
+  - 下午做完了assignment1的localoptimization
+  - 在看dataflow analysis
 </details>
 </details>
 </details>
