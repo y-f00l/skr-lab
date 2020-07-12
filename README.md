@@ -133,8 +133,13 @@ d = a - d
   - 对llvm的pass有了初步认识
  ### 7.10
   - 上午去办了身份证
-  - 下午做完了assignment1的localoptimization
-  - 在看dataflow analysis
+  - 下午+晚上做完了assignment1的localoptimization
+  - 准备看dataflow analysis
+ ### 7.11
+  - 被学校赶走，收拾东西去酒店
+  - 在看编译器设计的数据流分析，看不懂，哭了
+ ### 7.12
+  - 思考如何做dataflow analysis，无果
 </details>
 </details>
 </details>
