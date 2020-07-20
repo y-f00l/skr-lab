@@ -70,7 +70,7 @@ Record my study progress
 </details>
 
 <details>
-  <summary>3-6 weeks: my compiler learn</summary>
+  <summary>3-8 weeks: my compiler learn</summary>
   
 ## 3rd week
 - 6.1-6.2
@@ -140,6 +140,15 @@ d = a - d
   - 在看编译器设计的数据流分析，看不懂，哭了
  ### 7.12
   - 思考如何做dataflow analysis，无果
+<detail>
+  <summary>9-12weeks: kernel</summary>
+  
+ - 第8周状态挺差，llvm的优化没学完，很可惜，开内核坑了
+ ## 8th week
+ ### 7.20
+  - 今天写了一天的data lab，代码和笔记都上传了，数学真难，头疼
+  
+</details>
 </details>
 </details>
 </details>
