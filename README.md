@@ -140,7 +140,7 @@ d = a - d
   - 在看编译器设计的数据流分析，看不懂，哭了
  ### 7.12
   - 思考如何做dataflow analysis，无果
-  
+  </details>
 <detail>
   <summary>9-12weeks: kernel</summary>
   
@@ -149,8 +149,6 @@ d = a - d
  ### 7.20
   - 今天写了一天的data lab，代码和笔记都上传了，数学真难，头疼
   
-</details>
-</details>
 </details>
 </details>
 
