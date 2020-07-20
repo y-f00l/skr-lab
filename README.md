@@ -146,7 +146,7 @@ d = a - d
   <summary>9-12weeks: kernel</summary>
   
  - 第8周状态挺差，llvm的优化没学完，很可惜，开内核坑了
- ## 8th week
+ ## 9th week
  ### 7.20
   - 今天写了一天的data lab，代码和笔记都上传了，数学真难，头疼
   
