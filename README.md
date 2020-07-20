@@ -142,7 +142,7 @@ d = a - d
   - 思考如何做dataflow analysis，无果
 </details>
 
-<detail>
+<details>
   <summary>9-12weeks: kernel</summary>
   
  - 第8周状态挺差，llvm的优化没学完，很可惜，开内核坑了
