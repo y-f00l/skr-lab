@@ -149,7 +149,15 @@ d = a - d
  ## 9th week
  ### 7.20
   - 今天写了一天的data lab，代码和笔记都上传了，数学真难，头疼
-  
+ ### 7.21
+  - 写了bomb lab
+  - 看了csapp，复习了一下cpu执行指令的过程
+ ### 7.22
+  - 写了arch lab的两个part
+  - 中途去配置qemu调试环境了
+ ### 7.23
+  - 在写cache lab
+  - 依旧是配环境
 </details>
 </details>
 
