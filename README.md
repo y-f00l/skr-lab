@@ -179,6 +179,12 @@ d = a - d
  ### 7.30
   - 参照某位大佬的blog对我的程序进行改动
   - debug花了一些时间
+ ### 7.31
+  - 读完了csapp的网络编程那章
+  - 写了proxy lab的part A
+ ### 8.1 - 8.9
+  - 弄syzkaller的环境，寻找可以fuzz的目标
+  - 写ucore的lab，目前做完了两个lab，lab2的扩展练习还没写
 </details>
 </details>
 
