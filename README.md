@@ -185,6 +185,22 @@ d = a - d
  ### 8.1 - 8.9
   - 弄syzkaller的环境，寻找可以fuzz的目标
   - 写ucore的lab，目前做完了两个lab，lab2的扩展练习还没写
+ ### 8.10 - 9.10
+  - 这段时间一直在忙返校和上学期欠的期末考试，没更新这个页面
+  - 中间穿插着写到ucore lab6
 </details>
 </details>
+<details>
+  <summary>第二阶段: Pwn exploration</summary>
+  
+### 8.11-9.13
+   - 补上学期的实验，然后准备实验的考试
+   - 做了p4ctf的kvm
+   - 看了UNIX环境高级编程的第1章
+### 9.14
+   - UNIX环境高级编程看完了第三章
+   - 36C3关于binary fuzzing的视频看了一半
+   - 做学校课内的实验
+</details>
+
 
