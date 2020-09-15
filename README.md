@@ -202,11 +202,7 @@ d = a - d
    - 36C3关于binary fuzzing的视频看了一半
    - 做学校课内的实验
 ### 9.15
-   - 学不进去，把昨天36C3的视频看完了，笔记如下
- 
-<details>
-   <sumamry>retrowirte</summary>
-</details>
+   - 学不进去，把昨天36C3的视频看完了，笔记链接:
 
 </details>
 
