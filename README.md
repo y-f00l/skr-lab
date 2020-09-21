@@ -203,7 +203,10 @@ d = a - d
    - 做学校课内的实验
 ### 9.15
    - 学不进去，把昨天36C3的视频看完了，笔记链接:
-
+### 9.15-9.20
+   - 见virtualization security仓库，已经记录了
+### 9.21
+   - 逆完了sandybox的沙箱，照着GHSlab的一篇文章看了codeQL相关的使用
 </details>
 
 
