@@ -212,6 +212,7 @@ d = a - d
    - 看了点深入理解linux内核
    - 看了Hyper-V的类型混淆的一个cve，但是感觉环境不好搭所以不准备调了
    - 今天感觉好累，不知道怎么了
+   - 看了chatin的f1yyy在36c3上pwn掉Esxi的讲解
 </details>
 
 
