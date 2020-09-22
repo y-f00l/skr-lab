@@ -207,6 +207,10 @@ d = a - d
    - 见virtualization security仓库，已经记录了
 ### 9.21
    - 逆完了sandybox的沙箱，照着GHSlab的一篇文章看了codeQL相关的使用
+### 9.22
+   - 看了眼wp把sandybox做了，没想到64位还能兼容32位系统调用，神奇
+   - 看了点深入理解linux内核
+   - 看了Hyper-V的类型混淆的一个cve，但是感觉环境不好搭所以不准备调了
 </details>
 
 
