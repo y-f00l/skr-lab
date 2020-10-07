@@ -63,10 +63,6 @@ Record my study progress
     是erase的锅，如果在你疯狂对list进行erase，在它为空的时候，里面会有一个head node，由于list是双向循环链表，这时head node就会指向它自己，此刻在进行erase，就会对head node进行析构，然后释放对应内存，但是list里的erase函数会返回一个指向erase的结点的后继结点的迭代器，这样我们会拿到一个指向已释放内存的指针，会造成uaf。asan编译后会抛use after free的警告。
     
     总结一下，这些漏洞的成因是都是bound check的遗漏，看了一下别的师傅找到的发现有迭代器的位置不正确，导致析构出现uaf。
-
-  ### 下一阶段目标
-    - 考试周复习(忙完考试周变日更 苟过考试周先
-    - 考完试写编译器
 </details>
 
 <details>
@@ -90,19 +86,14 @@ Record my study progress
 ### 6.29
    - 开始看llvm的tutorial，目前看完了kaledoscope的lexer和parser(有股熟悉的味道)
    - 看了一点垃圾回收的算法，刚看到标记-清除算法，嗅到了ptmalloc的味道
-### 6.30
-   - 搬宿舍
 ### 7.1
    - 看房子
    - 写完了llvm tutorial的lexer
 ### 7.3
-   - 跟家里人商量假期的事
-   - 找兼职
    - 看了cscd70的lec1
    - 补一下cscd70的笔记：https://github.com/y-f00l/f00l_llvm_learn
 ### 7，4
    - 写了llvm tutorial的parser
-   - 帮室友搬宿舍
 ### 7.5
    - 整理了cool的笔记https://github.com/y-f00l/f00l_cool_compiler
    - 在看编译器的漏洞
@@ -136,7 +127,6 @@ d = a - d
   - 下午+晚上做完了assignment1的localoptimization
   - 准备看dataflow analysis
  ### 7.11
-  - 被学校赶走，收拾东西去酒店
   - 在看编译器设计的数据流分析，看不懂，哭了
  ### 7.12
   - 思考如何做dataflow analysis，无果
@@ -175,7 +165,6 @@ d = a - d
   - 准备暑期实践
  ### 7.29
   - 写完malloc lab大体框架
-  - 为了暑期实践特地去学h5(🤮)
  ### 7.30
   - 参照某位大佬的blog对我的程序进行改动
   - debug花了一些时间
@@ -186,21 +175,18 @@ d = a - d
   - 弄syzkaller的环境，寻找可以fuzz的目标
   - 写ucore的lab，目前做完了两个lab，lab2的扩展练习还没写
  ### 8.10 - 9.10
-  - 这段时间一直在忙返校和上学期欠的期末考试，没更新这个页面
-  - 中间穿插着写到ucore lab6
+  - 写到ucore lab6
 </details>
 </details>
 <details>
   <summary>第二阶段: Pwn exploration</summary>
   
 ### 8.11-9.13
-   - 补上学期的实验，然后准备实验的考试
    - 做了p4ctf的kvm
    - 看了UNIX环境高级编程的第1章
 ### 9.14
    - UNIX环境高级编程看完了第三章
    - 36C3关于binary fuzzing的视频看了一半
-   - 做学校课内的实验
 ### 9.15
    - 学不进去，把昨天36C3的视频看完了，笔记链接:
 ### 9.15-9.20
@@ -214,17 +200,12 @@ d = a - d
    - 今天感觉好累，不知道怎么了
    - 看了chatin的f1yyy在36c3上pwn掉Esxi的讲解
 ### 9.23
-   - 今天上午要做实验，没怎么推进进度，太难了
-   - 下午去做核算检测，国赛要出具证明
    - 看了chatin的f1yyy关于Esxi的逃逸
    - 看了一篇基于kvm实现简单内核的文章，准备跟着写一下
 ### 9.24
-   - 上午被计网老师点名了，只能听课了，看了一下Pwn2Own的VMware的越界写的漏洞
-   - 下午在听操作系统的课再加上把显示器什么的搬到活动室
-   - 晚上去了奇安信的校招会，感觉好水，真是浪费时间
+   - 看了一下Pwn2Own的VMware的越界写的漏洞
 ### 9.25
-   - 上午跑学校的请假程序，为了国赛
-   - 下午电脑扔活动室了，看kvm看到了第二章
+   - 下午看kvm看到了第二章
 </details>
 
 
