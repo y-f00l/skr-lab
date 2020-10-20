@@ -20,10 +20,10 @@ Record my study progress
       ``` c
       
       class Test
-    {
+       {
       private:
       int* p;
-    public:
+       public:
       Test(int x)
       {
           this->p=new int(x);
@@ -38,15 +38,15 @@ Record my study progress
         cout << "delete the object" << endl;
       }
       int getX() { return *p; }
-    };
+       };
 
-    int main()
-    {
+       int main()
+       {
       Test a(10);
       //浅拷贝
       Test b = a;
       return 0;
-     }
+      }
      
     ```
        浅拷贝只是复制字面值，也就是说，当复制指针的时候，只会复制那个地址，也就是说会有两个指向同一位置的指针，这样就就会造成uaf漏洞
