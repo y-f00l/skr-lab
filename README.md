@@ -13,40 +13,40 @@ Record my study progress
   - 类的构造、析构函数
   - 类的继承方式的区别，比如private public protected等
   - 深拷贝和浅拷贝的区别
-  - 浅拷贝出现在类里没有定义拷贝构造函数的时候：
-   1. 类作为函数参数传递时
-   2. 类作为函数返回值传递时
-   3. 一个新类A被B初始化时，如下代码
-      ``` c
+    - 浅拷贝出现在类里没有定义拷贝构造函数的时候：
+     1. 类作为函数参数传递时
+     2. 类作为函数返回值传递时
+     3. 一个新类A被B初始化时，如下代码
+   ``` c
       
       class Test
-       {
-      private:
-      int* p;
-       public:
-      Test(int x)
       {
+      private:
+        int* p;
+      public:
+        Test(int x)
+        {
           this->p=new int(x);
           cout << "create the object" << endl;
-      }
-      ~Test()
-      {
-        if (p != NULL)
-        {
-            delete p;
         }
-        cout << "delete the object" << endl;
-      }
-      int getX() { return *p; }
-       };
+        ~Test()
+        {
+          if (p != NULL)
+          {
+              delete p;
+          }
+          cout << "delete the object" << endl;
+        }
+        int getX() { return *p; }
+        };
 
        int main()
        {
-      Test a(10);
-      //浅拷贝
-      Test b = a;
-      return 0;
-      }
+        Test a(10);
+        //浅拷贝
+        Test b = a;
+        return 0;
+        }
      
     ```
        浅拷贝只是复制字面值，也就是说，当复制指针的时候，只会复制那个地址，也就是说会有两个指向同一位置的指针，这样就就会造成uaf漏洞
@@ -206,6 +206,9 @@ d = a - d
    - 看了一下Pwn2Own的VMware的越界写的漏洞
 ### 9.25
    - 下午看kvm看到了第二章
+### 10.20
+   - 时隔一个月我又回来了，处理了一些自己的杂事
+   - 重写cve 2020 14364的利用ing
 </details>
 
 
