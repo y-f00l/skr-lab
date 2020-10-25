@@ -219,12 +219,12 @@ d = a - d
  - 立个flag:之后每周至少有5天要commit :X
  
 </details>
-- 从阶段记录跳出来，直接记录每周的学习情况
 <details>
 <summary></summary>
 </details>
 
 </details>
+
 - 从阶段记录跳出来，直接记录每周的学习情况
 
 
