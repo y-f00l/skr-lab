@@ -209,8 +209,16 @@ d = a - d
 ### 10.20
    - 时隔一个月我又回来了，处理了一些自己的杂事
    - [x] 重写cve 2020 14364的利用ing，加深理解
+
 <details>
-<summary>22nd week</summary>
+<summary></summary>
+</details>
+
+</details>
+
+- 从阶段记录跳出来，直接记录每周的学习情况
+<details>
+<summary>23rd week</summary>
   
  - 这周好多杂事，学习方面没有推进
  - 姐姐结婚回老家花了四天(偏远山区孩子伤不起)
@@ -219,12 +227,4 @@ d = a - d
  - 立个flag:之后每周至少有5天要commit :X
  
 </details>
-<details>
-<summary></summary>
-</details>
-
-</details>
-
-- 从阶段记录跳出来，直接记录每周的学习情况
-
 
