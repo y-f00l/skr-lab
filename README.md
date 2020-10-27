@@ -224,7 +224,19 @@ d = a - d
  - 姐姐结婚回老家花了四天(偏远山区孩子伤不起)
  - GeekPwn(翻车大会，后悔过去了)
  - 补了一下实验报告
- - 立个flag:之后每周至少有5天要commit :X
+ - 立个flag:之后每周至少有4天要commit :X
  
 </details>
 
+<details>
+<summary>24th week</summary>
+  
+## 10.26
+  - 学校的程序设计周，忙了一上午队友说有类似的，回去找源码(浪费一上午)
+  - 下午去医院看牙 + 逆qwb的qwct
+  - 晚上写了一部分exp，把泄漏部分写完
+## 10.27
+  - 写完了qwct的exp，github commit(1/4)
+  - 下午去图书馆借了本内核漏洞利用开发和windows internals，摸鱼的时候看看
+  - 分析完xnuca2019 vexx，泄漏部分的利用写完
+</details>
