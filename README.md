@@ -239,4 +239,8 @@ d = a - d
   - 写完了qwct的exp，github commit(1/4)
   - 下午去图书馆借了本内核漏洞利用开发和windows internals，摸鱼的时候看看
   - 分析完xnuca2019 vexx，泄漏部分的利用写完
+## 10.28
+  - vexx exp完结(commit 2/4)
+  - 上午直接一觉睡到11点
+  - 下午摸鱼看了会黄书(划掉)
 </details>
