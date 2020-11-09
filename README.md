@@ -252,3 +252,11 @@ d = a - d
   - 随便找了ctftime上的一个比赛，做了一个bf解释器的题(越界读写，挺弱智的)
   - 洗了个澡
 </details>
+
+<details>
+<summary>25th week</summary>
+  
+ - 本周都在摸程序设计的事情
+
+</details>
+
