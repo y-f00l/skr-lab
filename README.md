@@ -291,3 +291,7 @@ d = a - d
 - 把HTB的starting point最后一个内网的机器做了，收获比较大
 - 做了HTB的Knife，比较容易
 - wp已上传
+
+### 8.10
+- HTB的previse
+
